@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabuleiro - República Velha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🗺️ Jogo da República Velha</h1>
+    <div id="tabuleiro">
+      <!-- Casas do tabuleiro -->
+      <div class="casa" id="casa0">Início</div>
+      <!-- Gera 20 casas numeradas -->
+      <div id="casasContainer"></div>
+    </div>
+
+    <div id="equipesContainer"></div>
+
+    <button onclick="sortearPergunta()">Sortear Pergunta</button>
+    <div id="perguntaContainer"></div>
+  </div>
+
+  <script src="perguntas.js"></script>
+  <script src="tabuleiro.js"></script>
+</body>
+</html>
+

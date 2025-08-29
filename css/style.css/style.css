@@ -1,0 +1,50 @@
+body {
+  font-family: 'Georgia', serif;
+  background: url('papel-envelhecido.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #3e2f1c;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: rgba(255, 248, 220, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #5c4422;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+label, select, input {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+button {
+  background-color: #8b5e3c;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a06c4d;
+}
+
