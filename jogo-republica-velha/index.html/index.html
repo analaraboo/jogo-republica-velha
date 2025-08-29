@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>República Velha - Jogo de Tabuleiro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 República Velha</h1>
+    <p class="subtitle">Escolha o número de equipes e seus nomes para começar</p>
+
+    <label for="numEquipes">Número de equipes (1 a 4):</label>
+    <select id="numEquipes" onchange="mostrarCampos()">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+
+    <div id="camposEquipes"></div>
+
+    <button onclick="iniciarJogo()">Iniciar Jogo</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
